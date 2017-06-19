@@ -101,7 +101,7 @@ app.post('/webhook', function (req, res) {
     {
         var request = require("request");
         var Period = body.result.parameters.Period;
-        Period = Period.split("/");
+        console.log(JSON.stringify(Period));
         var options = {
             method: 'POST',
             url: 'http://52.172.213.166:8080/sbi/Detail/api/EnqINBAccountStatement',
@@ -111,16 +111,15 @@ app.post('/webhook', function (req, res) {
                         apikey: 'ywr4rQdbjSOVDtr',
                         'content-type': 'application/json'
                     },
-            body: {
-                "AccountNumber": "30001512992",
-                "FromAmount": body.result.parameters.FromAount,
-                "FromDate": "0",
-                "ToAmount": body.result.parameters.ToAmount,
-                "ToDate": "0", 
-                "TransactionNumber": "150"
-            },
-            json: true
-        };
+           body: 
+   { AccountNumber: '30001512992',
+     FromAmount: 1000,
+     FromDate: '0',
+     ToAmount: '10000',
+     ToDate: '0',
+     TransactionNumber: 150 },
+  json: true };
+        console.log(options);
         request(options, function (error, response, body) {
             if (error)
                 throw new Error(error);
@@ -129,7 +128,7 @@ app.post('/webhook', function (req, res) {
             for (var i = 0; i < body.StatementDetails.length; i++)
             {
                 speech = speech + "\n\
-" + (i + 1) + ". " + body.StatementInfo[i].Amount + " " + body.StatementDetails[i].ValueDate + " " + body.StatementDetails[i].Narration + "\n";
+" + (i + 1) + ". " + body.StatementDetails[i].Amount + " " + body.StatementDetails[i].ValueDate + " " + body.StatementDetails[i].Narration + "\n";
             }
             var json = {
                 "speech": speech,
