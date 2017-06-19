@@ -1,0 +1,12 @@
+{
+    "name": "Deepanshu Jain",
+    "Accounts":
+            {
+                "Savings": "00000030001512992", 
+                "Housing Loan": "00000030001510133",
+                "Car Loan": "00000030001510166"
+            },
+    "AccountNumber":"30001512992",
+    "apiKey": "ywr4rQdbjSOVDtr"
+    
+}
