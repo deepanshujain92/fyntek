@@ -6,7 +6,17 @@
                 "Housing Loan": "00000030001510133",
                 "Car Loan": "00000030001510166"
             },
+    "LoanEnquiryAccount":"00000030001513012",        
     "AccountNumber":"30001512992",
+    "CoustomerDetailsAccountNumber":"00000085001410583",
+    "CustomerNumber":"00000085001410583",
+    "Beneficiaries" :[
+{ "BENFACCTNO": "00000030001512992", "BENFNAME":"Mr.Sbi User1",	"MOBNUMBER" :8452824672,"RECBNKIFSC":"HDFC0000001","REMNAME":"Mr.Sbi ExternalUser1","REMTACCTNO": "00000010001458660","SNDIFSC":"SBIN0000437","TXNAMT": 5000,"JournalNumber": 600144000}],
+
+
+
+
+
     "apiKey": "ywr4rQdbjSOVDtr"
     
 }
