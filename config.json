@@ -6,17 +6,66 @@
                 "Housing Loan": "00000030001510133",
                 "Car Loan": "00000030001510166"
             },
-    "LoanEnquiryAccount":"00000030001513012",        
-    "AccountNumber":"30001512992",
-    "CoustomerDetailsAccountNumber":"00000085001410583",
-    "CustomerNumber":"00000085001410583",
-    "Beneficiaries" :[
-{ "BENFACCTNO": "00000030001512992", "BENFNAME":"Mr.Sbi User1",	"MOBNUMBER" :8452824672,"RECBNKIFSC":"HDFC0000001","REMNAME":"Mr.Sbi ExternalUser1","REMTACCTNO": "00000010001458660","SNDIFSC":"SBIN0000437","TXNAMT": 5000,"JournalNumber": 600144000}],
-
-
-
-
-
+    "LoanEnquiryAccount": "00000030001513012",        
+    "AccountNumber": "30001512992",
+    "CoustomerDetailsAccountNumber": "00000085001410583",
+    "CustomerNumber": "00000085001410583",
+    "Beneficiaries": [
+        {
+            "BENFACCTNO": "00000030001512992",
+            "BENFNAME": "Mr.Sbi User1",
+            "MOBNUMBER": 8452824672,
+            "RECBNKIFSC": "HDFC0000001",
+            "REMNAME": "Mr.Sbi ExternalUser1",
+            "REMTACCTNO": "00000010001458660",
+            "SNDIFSC": "SBIN0000437",
+            "TXNAMT": 5000,
+            "JournalNumber": 600144000
+        },
+        {
+            "BENFACCTNO": "00000030001513000",
+            "BENFNAME": "Mr.Sbi User2",
+            "MOBNUMBER": 8452824600,
+            "RECBNKIFSC": "ICIC0000002",
+            "REMNAME": "Mr.Sbi ExternalUser2",
+            "REMTACCTNO": "00000010001455550",
+            "SNDIFSC": "SBIN0000438",
+            "TXNAMT": 5000,
+            "JournalNumber": 600144001
+        },
+        {
+            "BENFACCTNO": "00000030001513001",
+            "BENFNAME": "Mr.Sbi User3",
+            "MOBNUMBER": 8452824601,
+            "RECBNKIFSC": "SBI0000003",
+            "REMNAME": "Mr.Sbi ExternalUser3",
+            "REMTACCTNO": "00000010001456660",
+            "SNDIFSC": "SBIN0000439",
+            "TXNAMT": 15002,
+            "JournalNumber": 600144002
+        },
+        {
+            "BENFACCTNO": "00000030001513002",
+            "BENFNAME": "Mr.Sbi User4",
+            "MOBNUMBER": 8452824602,
+            "RECBNKIFSC": "PNB0000004",
+            "REMNAME": "Mr.Sbi ExternalUser4",
+            "REMTACCTNO": "00000010001458880",
+            "SNDIFSC": "SBIN0000440",
+            "TXNAMT": 25003,
+            "JournalNumber": 600144003
+        },
+        {
+            "BENFACCTNO": "00000030001513010",
+            "BENFNAME": "Mr.Sbi User5",
+            "MOBNUMBER": 8452824604,
+            "RECBNKIFSC": "BOB0000005",
+            "REMNAME": "Mr.Sbi ExternalUser5",
+            "REMTACCTNO": "00000010000000000",
+            "SNDIFSC": "SBIN0000441",
+            "TXNAMT": 50045,
+            "JournalNumber": 600144004
+        }
+    ],
     "apiKey": "ywr4rQdbjSOVDtr"
-    
 }
